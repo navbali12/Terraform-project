@@ -1,5 +1,5 @@
 # Terraform-project
-In this file , I have launched multiple EC2 instances using Count meta-argument.
+In this file , I have launched multiple EC2 instances using 'Count' meta-argument.
 Terraform helps us to re-use code. If we want need to create multiple resources of the same type , we need not to write duplicate code.
 Adding a "count" field helps us to overconme this.
 <img width="542" alt="Screen Shot 2023-05-18 at 1 10 59 AM" src="https://github.com/navbali12/Terraform-project/assets/100817660/ad11b105-3b75-42ab-beda-de1c7667cdbf">

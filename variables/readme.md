@@ -1,7 +1,36 @@
-when it is IAC, hard-coding is no fun!
+**Variables in Terraform:**
 
-In this module, we will be exploring variables in terraform
-EC2-instance folder configuration includes a number of hard-coded values. Terraform variables allow us to write configuration that is flexible and easier to re-use.
+Variables in terraform help us to soft code, it provides flexibility and ease to re-use.
 
-Create a main.tf file and initialzie an EC2 instance.
+Declaring Variables in Terraform:
+1. Through variables.tf file
+This file contains all the variables used in terraform. We need not to worry about naming this file, as, terraform will extract all files ".tf" files.
+
+**Syntax for Variable.tf file:**
+ 
+ <img width="402" alt="image" src="https://github.com/navbali12/Terraform-project/assets/100817660/5c1a1adf-edd4-4362-aeb4-bc6683582448">
+
+key arguments:
+
+**description**: describes the variable.
+
+**type**= string (really crucial to declare, if type is other than described , terraform will give error)
+
+**default**= if we run terraform plan or terraform apply, Terraform won't ask us for a value for instance_name, although we never set it anywhere. It will just use the default value terraform for those operations.
+
+
+****Referencing Variable through main.tf****
+
+General Syntax:
+     
+     var.VARIABLE_NAME
+   <img width="402" alt="image" src="https://github.com/navbali12/Terraform-project/assets/100817660/dd8a5d50-d13d-4fdf-acc5-474e9bf3e64f">
+
+   In variables.tf our "VARIABLE_NAME= instance_name"
+
+
+
+  2. In command line
+     
+
 

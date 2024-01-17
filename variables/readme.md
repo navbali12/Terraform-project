@@ -10,6 +10,11 @@ This file contains all the variables used in terraform. We need not to worry abo
  
  <img width="402" alt="image" src="https://github.com/navbali12/Terraform-project/assets/100817660/5c1a1adf-edd4-4362-aeb4-bc6683582448">
 
+
+** output:**
+![image](https://github.com/navbali12/Terraform-project/assets/100817660/0b906f77-279e-45d3-b16e-83459342e04b)
+
+
 key arguments:
 
 **description**: describes the variable.

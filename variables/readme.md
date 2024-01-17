@@ -28,9 +28,23 @@ General Syntax:
 
    In variables.tf our "VARIABLE_NAME= instance_name"
 
+****2. In command line****
+ We can pass a value to a variable during the plan and apply phase by using the -var command line option:
+
+<img width="681" alt="image" src="https://github.com/navbali12/Terraform-project/assets/100817660/c2800b40-af93-447d-8df3-3b253ab3ae33">
+
+ **output:**
+ <img width="968" alt="image" src="https://github.com/navbali12/Terraform-project/assets/100817660/08f4fc8d-2d43-4a0a-bc39-3e7294c57039">
+
+3.Using .tfvars file:
 
 
-  2. In command line
+4. By passing as environment variables.
+
+ 
+ 
+
+
      
 
 
